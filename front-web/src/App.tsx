@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
+import Hello from './Hello';
 
 function App() {
   return (
-<h1>Hello Semana DevSuperior!!</h1>
+    <div>
+      <Hello message = "Semana DevSuperior!!" />
+      <Hello message = "Festa da Titia!!"/>
+      <Hello message = "Festa da Titia!!"/>
+      <Hello message = "Festa da Titia!!"/>
+    </div>
+
   );
 }
 
