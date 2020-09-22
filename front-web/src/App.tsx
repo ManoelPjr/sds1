@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
-import Hello from './Hello';
+import Header from './Components/Header/index.tsx';
 
 function App() {
   return (
     <div>
-      <Hello message = "Semana DevSuperior!!" />
-      <Hello message = "Festa da Titia!!"/>
-      <Hello message = "Festa da Titia!!"/>
-      <Hello message = "Festa da Titia!!"/>
+      <Header />
     </div>
 
   );
